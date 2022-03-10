@@ -1,7 +1,7 @@
 <?php
 
-use Web\App\Api\V1\Controllers\BotMessengerController;
 use Illuminate\Support\Facades\Route;
+use Web\App\Api\V1\Controllers\BotMessengerController;
 
 Route::post('bot/42yUojv1YQPOssPEpn5i3q6vjdhh7hl7djVWDIAVhFDRMAwZ1tj0Og2v4PWyj4PZ/webhook', [BotMessengerController::class, 'getUpdates']);
 
