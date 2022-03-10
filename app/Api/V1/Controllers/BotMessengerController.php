@@ -24,7 +24,7 @@ class BotMessengerController extends BaseController
      *@OA\Post(
      *      path="bot/{chatId}/sendmessage",
      *      operationId="sendMessage",
-     *      tags={"Telegram Bot"},
+     *      tags="Telegram Bot",
      *      summary="Send message to chat",
      *      description="Sends message to chat",
      *      @OA\Produces(
@@ -80,7 +80,7 @@ class BotMessengerController extends BaseController
      *@OA\Post(
      *      path="/bot/{chatId}/leave-chat",
      *      operationId="leaveChat",
-     *      tags={"Telegram Bot"},
+     *      tags="Telegram Bot",
      *      summary="Leave chatroom",
      *      description="Leave chatroom",
      *      @OA\Produces(
@@ -135,7 +135,7 @@ class BotMessengerController extends BaseController
      *@OA\Post(
      *      path="/bot/42yUojv1YQPOssPEpn5i3q6vjdhh7hl7djVWDIAVhFDRMAwZ1tj0Og2v4PWyj4PZ/webhook",
      *      operationId="getUpdates",
-     *      tags={"Telegram Bot"},
+     *      tags="Telegram Bot",
      *      summary="Get message updates from Bot",
      *      description="Sends message to chat",
      *      @OA\Produces(
@@ -177,7 +177,7 @@ class BotMessengerController extends BaseController
      *@OA\Post(
      *      path="/bot/subscribe",
      *      operationId="subscribe",
-     *      tags={"Telegram Bot"},
+     *      tags="Telegram Bot",
      *      summary="Subscribe user to chat",
      *      description="Subscribe user to chat",
      *      @OA\Parameter(
