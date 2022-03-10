@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Api\V1\Controllers;
+namespace Web\App\Api\V1\Controllers;
 
 use App\Http\Controllers\BaseController;
 use Carbon\Carbon;
